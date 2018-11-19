@@ -19,7 +19,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 Vulnerability #1: SQL Injection (SQLi)
 ![](./gifs/1.gif)
 
-Instead of an ID number, the attacker enters this command `' OR SLEEP(5)=0--'`. Notice how it took more than 5 seconds for website to query the data.
+Instead of an ID number, the attacker enters this command `' OR SLEEP(5)=0--'`. Notice how it took around 5 seconds for website to query the data.
 
 Vulnerability #2: Session Hijacking/Fixation
 ![](./gifs/2.gif)
@@ -29,7 +29,10 @@ The attacker can log in from the site by using a session ID.
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
+![](./gifs/3/gif)
+
+Notice that the error message is bolded if username exists. The error message is in plain text if username does not exist. 
 
 Vulnerability #2: __________________
 
