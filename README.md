@@ -21,7 +21,10 @@ Vulnerability #1: SQL Injection (SQLi)
 
 Instead of an ID number, the attacker enters this command `' OR SLEEP(5)=0--'`. Notice how it took more than 5 seconds for website to query the data.
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
+![](./gifs/2.gif)
+
+The attacker can log in from the site by using a session ID.
 
 
 ## Green
